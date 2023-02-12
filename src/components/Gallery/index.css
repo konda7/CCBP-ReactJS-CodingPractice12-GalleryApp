@@ -1,0 +1,64 @@
+/* Write your code here. */
+
+.photography-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+.photography-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 567px) {
+  .photography-content-container {
+    width: 85%;
+  }
+}
+
+.nature-photo {
+  height: 300px;
+}
+
+@media screen and (min-width: 567px) {
+  .nature-photo {
+    height: 500px;
+  }
+}
+
+.nature-photography-heading {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 567px) {
+  .nature-photography-heading {
+    font-size: 30px;
+  }
+}
+
+.photography-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #64748b;
+  margin: 0;
+}
+
+@media screen and (min-width: 567px) {
+  .photography-description {
+    font-size: 20px;
+  }
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}

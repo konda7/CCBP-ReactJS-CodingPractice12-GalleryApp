@@ -1,0 +1,19 @@
+/* Write your code here. */
+
+.images-list {
+  list-style-type: none;
+}
+
+.image-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.image-thumbnail {
+  opacity: 0.5;
+}
+
+.select-image-thumbnail {
+  opacity: 1;
+}
